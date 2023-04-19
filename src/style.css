@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  list-style: none;
+}
+
+.page {
+  background-color: var(--el-bg-color);
+  min-width: 100%;
+  min-height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  position: absolute;
+}
+
+.page-error {
+   position: absolute;
+   height: 100vh;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+
+.page-son {
+  box-sizing: border-box;
+  padding-left: 20px;
+  background-color: red;
+}
+
+.page-son-son {
+  box-sizing: border-box;
+  padding-left: 20px;
+  background-color: skyblue;
+}
+
+.page-son-son-son {
+  box-sizing: border-box;
+  padding-left: 20px;
+  background-color: greenyellow;
+}
+
+.mr-1{
+  margin-left: 10px;
+}
